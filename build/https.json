@@ -1,0 +1,127 @@
+{
+	"version": "19.6.4",
+	"build": 1,
+
+	"name": "https",
+
+	"dest": "./../bin/{name}-{version}.{build}",
+	"files": "./files",
+	"repository": "./../src",
+
+	"title": "HTTPS Encryption",
+	"popupTitle": "HTTPS Encryption",
+
+	"replace_strings": {
+		"HTTPS Everywhere": "{title}",
+		"<h1 data-i18n=\"about_ext_name\"></h1>": "<h1>{popupTitle}</h1>"
+	},
+
+	"manifest" : {
+		"name": "{title}",
+		"version": "{version}.{build}",
+		"browser_action": {
+			"default_title": "{title}"
+		},
+		"author": "Safer Technologies LLC & uBlock Origin contributors",
+		"short_name": "{title}",
+		"homepage_url": "",
+		"update_url": "",
+		"applications": "",
+		"icons": {
+			"128": "icon128.png",
+			"48": "icon48.png",
+			"16": "icon16.png"
+		}
+	},
+
+	"tasks": [
+		{
+			"name": "Clean",
+			"command": "del",
+			"tags": ["clean","build"],
+			"arguments": [
+				"{dest}/**/*",
+				"./../bin/{name}-{version}.{build}.zip",
+				"./../bin/{name}-{version}.{build}.crx"
+			]
+		},
+		{
+			"name": "Copy from repository",
+			"command": "copy",
+			"tags": ["build"],
+			"arguments": [
+				{
+					"src": "{repository}/**",
+					"dest": "{dest}/"
+				}
+			]
+		},
+		{
+			"name": "Clean _locales",
+			"command": "del",
+			"tags": ["build"],
+			"arguments": [
+				"{dest}/_locales/**/*"
+			]
+		},
+		{
+			"name": "Copy _locales/en from repository",
+			"command": "copy",
+			"tags": ["build"],
+			"arguments": [
+				{
+					"src": "{repository}/_locales/en/**",
+					"dest": "{dest}/_locales/en/"
+				}
+			]
+		},
+		{
+			"name": "Overwrite files",
+			"command": "copy",
+			"tags": ["build"],
+			"arguments": [
+				{
+					"src": "{files}/{name}/**/*",
+					"dest": "{dest}/"
+				}
+			]
+		},
+		{
+			"name": "Replace strings",
+			"command": "batch_replace",
+			"tags": ["build"],
+			"src": "{dest}/**/*"
+		},
+		{
+			"name": "Patch manifest",
+			"command": "patch_maifest",
+			"tags": ["build"],
+			"src": "{dest}/manifest.json"
+		},
+		{
+			"name": "Zip destination folder",
+			"command": "zip",
+			"tags": ["pack"],
+			"src": "{dest}",
+			"filename": "{name}-{version}.{build}.zip",
+			"dest": "./../bin"
+		},
+		{
+			"name": "Package CRX",
+			"command": "crx",
+			"tags": ["pack"],
+			"src": "{dest}",
+			"key": "./keys/{name}_key.pem",
+			"filename": "{name}-{version}.{build}.crx",
+			"dest": "./../bin"
+		},
+		{
+			"name": "Clean",
+			"command": "del",
+			"tags": ["pack"],
+			"arguments": [
+				"{dest}"
+			]
+		}
+	]
+}

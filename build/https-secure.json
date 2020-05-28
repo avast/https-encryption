@@ -1,0 +1,7 @@
+{
+  "include": "https.json",
+  "override": {
+  	"name": "secure-https",
+  	"title": "Secure HTTPS Encryption"
+  }
+}

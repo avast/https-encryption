@@ -1,0 +1,8 @@
+{
+  "include": "https.json",
+  "override": {
+  	"name": "avast-https",
+  	"title": "Avast HTTPS Encryption",
+    "popupTitle": "HTTPS Encryption"
+  }
+}

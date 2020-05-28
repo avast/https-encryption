@@ -1,0 +1,146 @@
+{
+    "about_add_new_rule": {
+        "message": "Adicionar nova regra "
+    },
+    "about_ext_description": {
+        "message": "Criptografar a Web! Use automaticamente a seguran\u00e7a HTTPS em diversos sites."
+    },
+    "about_ext_name": {
+        "message": "HTTPS Everywhere"
+    },
+    "about_rulesets_version": {
+        "message": "Vers\u00e3o de Rulesets para"
+    },
+    "about_title": {
+        "message": "Sobre o HTTPS Everywhere"
+    },
+    "about_version": {
+        "message": "Vers\u00e3o"
+    },
+    "cancel_he_blocking_explainer": {
+        "message": "O HTTPS Everywhere percebeu que voc\u00ea estava navegando para uma p\u00e1gina n\u00e3o HTTPS e tentou enviar voc\u00ea para a vers\u00e3o HTTPS. A vers\u00e3o HTTPS n\u00e3o est\u00e1 dispon\u00edvel. O mais prov\u00e1vel \u00e9 que este site n\u00e3o suporte HTTPS, mas tamb\u00e9m \u00e9 poss\u00edvel que um invasor esteja bloqueando a vers\u00e3o HTTPS. Se voc\u00ea desejar visualizar a vers\u00e3o n\u00e3o criptografada desta p\u00e1gina, ainda poder\u00e1 desativ\u00e1-la desativando a op\u00e7\u00e3o &quot;Bloquear todas as solicita\u00e7\u00f5es n\u00e3o criptografadas&quot; na sua extens\u00e3o HTTPS Everywhere. Esteja ciente de que desativar essa op\u00e7\u00e3o pode deixar seu navegador vulner\u00e1vel a ataques de downgrade com base na rede nos sites que voc\u00ea visita."
+    },
+    "cancel_he_blocking_network": {
+        "message": "ataques de downgrade baseados em rede"
+    },
+    "chrome_add_new_rule": {
+        "message": "Adicione uma nova regra para esse site"
+    },
+    "chrome_add_rule": {
+        "message": "Adicione uma exce\u00e7\u00e3o para esse site"
+    },
+    "chrome_always_https_for_host": {
+        "message": "Sempre usar https para este hospedeiro"
+    },
+    "chrome_disable_on_this_site": {
+        "message": "Desabilitar o HTTPS Everywhere neste site."
+    },
+    "chrome_enable_on_this_site": {
+        "message": "Habilitar o HTTPS Everywhere neste site."
+    },
+    "chrome_experimental_rules": {
+        "message": "Regras experimentais"
+    },
+    "chrome_experimental_rules_description": {
+        "message": "Pode causar avisos ou ruptura. Desabilitado por padr\u00e3o."
+    },
+    "chrome_hide_advanced": {
+        "message": "Ocultar op\u00e7\u00f5es avan\u00e7adas"
+    },
+    "chrome_host": {
+        "message": "Hospedeiro:"
+    },
+    "chrome_redirect_to": {
+        "message": "Redirecionar para"
+    },
+    "chrome_regex": {
+        "message": "Express\u00e3o regular correspondente"
+    },
+    "chrome_rule_name": {
+        "message": "Nome da regra"
+    },
+    "chrome_show_advanced": {
+        "message": "Mostrar op\u00e7\u00f5es avan\u00e7adas"
+    },
+    "chrome_stable_rules": {
+        "message": "Regras est\u00e1veis"
+    },
+    "chrome_stable_rules_description": {
+        "message": "For\u00e7ar conex\u00f5es criptografadas para estes sites:"
+    },
+    "chrome_status_cancel_button": {
+        "message": "Cancelar"
+    },
+    "menu_blockUnencryptedRequests": {
+        "message": "Bloquear todos os pedidos n\u00e3o criptografados"
+    },
+    "menu_donate_eff_imperative": {
+        "message": "Doar para EFF"
+    },
+    "menu_globalEnable": {
+        "message": "Habilitar HTTPS Everywhere"
+    },
+    "menu_observatory": {
+        "message": "Prefer\u00eancias do Observat\u00f3rio SSL"
+    },
+    "menu_showCounter": {
+        "message": "Mostrar o contador"
+    },
+    "menu_viewAllRules": {
+        "message": "Consultar Todas as Regras"
+    },
+    "options_addUpdateChannel": {
+        "message": "Adicione canal de atualiza\u00e7\u00e3o"
+    },
+    "options_advancedSettings": {
+        "message": "Configura\u00e7\u00f5es Avan\u00e7adas"
+    },
+    "options_autoUpdateRulesets": {
+        "message": "Atualizar automaticamente os conjuntos de regras"
+    },
+    "options_delete": {
+        "message": "Delete"
+    },
+    "options_disabledUrlsListed": {
+        "message": "HTTPS Everywhere Sites Desabilitados"
+    },
+    "options_enableMixedRulesets": {
+        "message": "Habilitar conjuntos de regras de conte\u00fado misto"
+    },
+    "options_enterUpdateChannelName": {
+        "message": "Entre com o nome do canal de atualiza\u00e7\u00e3o"
+    },
+    "options_generalSettings": {
+        "message": "Configura\u00e7\u00f5es Gerais"
+    },
+    "options_showDevtoolsTab": {
+        "message": "Exibir aba das ferramentas de desenvolvedor"
+    },
+    "options_storedRulesetsVersion": {
+        "message": "Conjunto de regras armazenadas vers\u00e3o:"
+    },
+    "options_update": {
+        "message": "Atualizar"
+    },
+    "options_updateChannels": {
+        "message": "Atualize canais"
+    },
+    "options_updateChannelsWarning": {
+        "message": "Alerta: Adicionando atualiza\u00e7\u00e3o de canais pode motivar atacantes a sequestrar seu navegador. Somente edite essa se\u00e7\u00e3o se voc\u00ea sabe o que voc\u00ea est\u00e1 fazendo!"
+    },
+    "options_updatesLastChecked": {
+        "message": "Atualiza\u00e7\u00f5es verificadas pela \u00faltima vez:"
+    },
+    "options_updatesLastCheckedNever": {
+        "message": "nunca"
+    },
+    "prefs_export_settings": {
+        "message": "Exportar Configura\u00e7\u00f5es"
+    },
+    "prefs_reset_defaults": {
+        "message": "Restaurar as configura\u00e7\u00f5es padr\u00e3o"
+    },
+    "prefs_reset_defaults_message": {
+        "message": "Isso colocar\u00e1 cada conjunto de regras de volta ao seu estado inicial. Deseja continuar?"
+    }
+}

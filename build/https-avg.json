@@ -1,0 +1,8 @@
+{
+  "include": "https.json",
+  "override": {
+  	"name": "avg-https",
+  	"title": "AVG HTTPS Encryption",
+    "popupTitle": "HTTPS Encryption"
+  }
+}

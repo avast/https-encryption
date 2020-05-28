@@ -1,0 +1,9 @@
+{
+  "configs": [
+    "https-secure.json",
+    "https-safer.json",
+    "https-avast.json",
+    "https-avg.json",
+    "https-ccleaner.json"
+  ]
+}

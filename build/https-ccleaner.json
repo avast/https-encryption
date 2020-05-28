@@ -1,0 +1,8 @@
+{
+  "include": "https.json",
+  "override": {
+    "name": "ccleaner-https",
+    "title": "CCleaner HTTPS Encryption",
+    "popupTitle": "HTTPS Encryption"
+  }
+}

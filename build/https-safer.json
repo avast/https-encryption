@@ -1,0 +1,7 @@
+{
+  "include": "https.json",
+  "override": {
+  	"name": "safer-https",
+  	"title": "Safer HTTPS Encryption"
+  }
+}
